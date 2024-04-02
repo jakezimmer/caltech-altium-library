@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Generic.OutJob
 Description=
-TargetOutputMedium=PDF
+TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=bw135 (HP LaserJet 700 M712)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -38,7 +38,7 @@ OutputName1=Draftsman
 OutputCategory1=Documentation
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
@@ -50,7 +50,7 @@ OutputName2=Generates pick and place files
 OutputCategory2=Assembly
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=0
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=1
@@ -63,7 +63,7 @@ OutputName3=Assembly Drawings
 OutputCategory3=Assembly
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=2
 OutputEnabled3_OutputMedium3=0
@@ -94,7 +94,7 @@ OutputName4=Gerber Files
 OutputCategory4=Fabrication
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=0
+OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=4
@@ -107,7 +107,7 @@ OutputName5=NC Drill Files
 OutputCategory5=Fabrication
 OutputDocumentPath5=
 OutputVariantName5=
-OutputEnabled5=0
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=3
@@ -136,9 +136,9 @@ Configuration6_Item3=
 Configuration6_Name4=SortOrder
 Configuration6_Item4=Designator=Up
 Configuration6_Name5=VisibleOrder
-Configuration6_Item5=Line #=54|Designator=80|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Footprint=100|PartType=100|Layer=100
+Configuration6_Item5=Line #=54|Designator=80|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Footprint=100|PartType=100|Layer=100|Value=100
 Configuration6_Name6=VisibleOrder_Base
-Configuration6_Item6=Line #=54|Designator=80|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Footprint=100|PartType=100|Layer=100
+Configuration6_Item6=Line #=54|Designator=80|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Footprint=100|PartType=100|Layer=100|Value=100
 Configuration6_Name7=VisibleOrder_Consolidated
 Configuration6_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 Configuration6_Name8=VisibleOrder_Flat
@@ -148,7 +148,7 @@ OutputName7=Schematic Prints
 OutputCategory7=Documentation
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=1
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=4
 OutputEnabled7_OutputMedium3=0
@@ -162,13 +162,13 @@ OutputName8=PCB 3D Print Top
 OutputCategory8=Documentation
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=5
 OutputEnabled8_OutputMedium3=0
 OutputEnabled8_OutputMedium4=1
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=25.99|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.66|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=53191165|ViewY=135853584|LookAtX=160018592|LookAtY=86614168|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.46775664011926E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFGALL.SHOWCOMPONENTSNAPREFERENCE\3FALSE\2CFGALL.SHOWCOMPONENTSNAPCUSTOM\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3TRUE\2CFG3D.SHOWCOMPONENTSTEPMODELS\3TRUE\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\33307556\2CFG3D.BOTSOLDERMASKCOLOR\33307556\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\316777215\2CFG3D.WORKSPACEENDCOLOR\316777215\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\31.000000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000\2CFG3D.MECHCOVERLAYERUPDATED\3FALSE|DocumentPath=C:\Users\jake-zimmer-coo\Documents\CryoScope\FrontBaffle\Segment.PcbDoc
 OutputType9=PCB 3D Print
@@ -176,13 +176,13 @@ OutputName9=PCB 3D Print Bottom
 OutputCategory9=Documentation
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=6
 OutputEnabled9_OutputMedium3=0
 OutputEnabled9_OutputMedium4=2
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=25.99|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.66|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=53191165|ViewY=135853584|LookAtX=160018592|LookAtY=86614168|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.46775664011926E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFGALL.SHOWCOMPONENTSNAPREFERENCE\3FALSE\2CFGALL.SHOWCOMPONENTSNAPCUSTOM\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3TRUE\2CFG3D.SHOWCOMPONENTSTEPMODELS\3TRUE\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\33307556\2CFG3D.BOTSOLDERMASKCOLOR\33307556\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\316777215\2CFG3D.WORKSPACEENDCOLOR\316777215\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\31.000000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000\2CFG3D.MECHCOVERLAYERUPDATED\3FALSE|DocumentPath=C:\Users\jake-zimmer-coo\Documents\CryoScope\Labjack_Adapter\Cryoscope_Labjack_Breakout\LabJackBreakout.PcbDoc
 OutputType10=ExportSTEP
@@ -190,17 +190,30 @@ OutputName10=Export STEP
 OutputCategory10=Export
 OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=0
+OutputEnabled10=1
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=5
 OutputEnabled10_OutputMedium4=0
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\jake-zimmer-coo\Documents\CryoScope\FrontBaffle\Segment.PcbDoc
+Configuration10_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=1|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=True|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\jake-zimmer-coo\Documents\DIEMOS\DEIMOS_VIB\DEIMOS_VIB.PcbDoc
+OutputType11=ODB
+OutputName11=ODB++ Files
+OutputCategory11=Fabrication
+OutputDocumentPath11=
+OutputVariantName11=
+OutputEnabled11=1
+OutputEnabled11_OutputMedium1=0
+OutputEnabled11_OutputMedium2=0
+OutputEnabled11_OutputMedium3=6
+OutputEnabled11_OutputMedium4=0
+OutputDefault11=0
+Configuration11_Name1=OutputConfigurationParameter1
+Configuration11_Item1=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=False|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotTopLayerPlot=False|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|Record=ODBView|ToolsByDrillSymbols=False|Units=Metric|DocumentPath=C:\Users\jake-zimmer-coo\Documents\CryoScope\Labjack_Adapter\Cryoscope_Labjack_Breakout\LabJackBreakout.PcbDoc
 
 [PublishSettings]
-OutputFilePath2=C:\Users\jake-zimmer-coo\Documents\DIEMOS\DEIMOS_VIB\Outputs\2023-10-24\
+OutputFilePath2=C:\Users\jake-zimmer-coo\Documents\CryoScope\FrontBaffle\Outputs\2023-12-01\
 ReleaseManaged2=0
 OutputBasePath2=Outputs\
 OutputPathMedia2==CurrentDate
@@ -209,7 +222,7 @@ OutputPathOutputer2=
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
 OutputFileName2=Generic.PDF
-OutputFileNameMulti2==OutputName+'_'+ProjectName
+OutputFileNameMulti2==OutputName
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=1
@@ -227,20 +240,20 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\jake-zimmer-coo\Documents\AluminumBoardTemperatureSensors\Outputs\2023-10-26\
+OutputFilePath3=C:\Users\jake-zimmer-coo\Documents\DIEMOS\DEIMOS_VIB\Outputs\2024-01-08\
 ReleaseManaged3=0
 OutputBasePath3=Outputs\
 OutputPathMedia3==CurrentDate
 OutputPathMediaValue3==CurrentDate
 OutputPathOutputer3=[Output Custom]
 OutputPathOutputerPrefix3==ProjectName
-OutputPathOutputerValue3==OutputName+'_'+ProjectName
+OutputPathOutputerValue3==OutputName
 OutputFileName3=
 OutputFileNameMulti3==OutputName+'_'+ProjectName
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\Users\jake-zimmer-coo\Documents\AluminumBoardTemperatureSensors\Outputs\2023-10-26\
+OutputFilePath4=C:\Users\jake-zimmer-coo\Documents\CryoScope\Labjack_Adapter\Cryoscope_Labjack_Breakout\Outputs\2023-12-01\
 ReleaseManaged4=0
 OutputBasePath4=Outputs\
 OutputPathMedia4==CurrentDate
@@ -249,15 +262,15 @@ OutputPathOutputer4=
 OutputPathOutputerPrefix4=
 OutputPathOutputerValue4=
 OutputFileName4=
-OutputFileNameMulti4==OutputName+'_'+ProjectName
+OutputFileNameMulti4==OutputName
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
 OpenOutput4=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\jake-zimmer-coo\Documents\DIEMOS\DEIMOS_VIB\Outputs\2023-10-24\
+RelativeOutputPath2=C:\Users\jake-zimmer-coo\Documents\CryoScope\FrontBaffle\Outputs\2023-12-01\
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\jake-zimmer-coo\Documents\AluminumBoardTemperatureSensors\Outputs\2023-10-26\
+RelativeOutputPath3=C:\Users\jake-zimmer-coo\Documents\DIEMOS\DEIMOS_VIB\Outputs\2024-01-08\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
@@ -267,7 +280,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\Users\jake-zimmer-coo\Documents\AluminumBoardTemperatureSensors\Outputs\2023-10-26\
+RelativeOutputPath4=C:\Users\jake-zimmer-coo\Documents\CryoScope\Labjack_Adapter\Cryoscope_Labjack_Breakout\Outputs\2023-12-01\
 OpenOutputs4=0
 AddToProject4=1
 TimestampFolder4=0
